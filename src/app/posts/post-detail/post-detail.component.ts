@@ -28,7 +28,7 @@ export class PostDetailComponent implements OnInit{
           this.detailedPost = post[0]
           this.isLoadedPost = true;
         });
-    }, 2000)
+    }, 1000)
     
   }
 }

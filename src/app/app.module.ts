@@ -11,6 +11,8 @@ import { PostCommentComponent } from './posts/post-detail/post-comment/post-comm
 import { AppRoutingModule } from './app-routing.module';
 import { Error404Component } from './error404/error404.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     PostDetailComponent,
     PostCommentComponent,
     Error404Component,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
