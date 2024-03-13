@@ -9,6 +9,6 @@ export class PostItemComponent implements OnInit{
   @Input() postItem;
 
   ngOnInit(): void {
-      console.log("item", this.postItem)
+      // console.log("item", this.postItem)
   }
 }
