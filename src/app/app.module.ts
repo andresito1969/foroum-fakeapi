@@ -8,6 +8,8 @@ import { PostListComponent } from './posts/post-list/post-list.component';
 import { PostItemComponent } from './posts/post-list/post-item/post-item.component';
 import { PostDetailComponent } from './posts/post-detail/post-detail.component';
 import { PostCommentComponent } from './posts/post-detail/post-comment/post-comment.component';
+import { AppRoutingModule } from './app-routing.module';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +20,11 @@ import { PostCommentComponent } from './posts/post-detail/post-comment/post-comm
     PostItemComponent,
     PostDetailComponent,
     PostCommentComponent,
+    Error404Component,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
