@@ -10,6 +10,8 @@ import { PostDetailComponent } from './posts/post-detail/post-detail.component';
 import { PostCommentComponent } from './posts/post-detail/post-comment/post-comment.component';
 import { AppRoutingModule } from './app-routing.module';
 import { Error404Component } from './error404/error404.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { Error404Component } from './error404/error404.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
