@@ -1,6 +1,18 @@
-<div class="container detailed-post">
+<div class="container detailed-post" *ngIf="isLoadedPost; else loadingPost">
     <div class="row">
-        This is the post xx detailed
+        <div class="col-md-12">
+            <div class="card">
+                <ul class="list-group list-group-flush" style="border: 1px solid black !important;">
+                    <li class="list-group-item" style="border: 0px solid white !important;">{{detailedPost.title}}</li>
+                    <li class="list-group-item" style="border: 0px solid white !important;">User id: {{detailedPost.body}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <app-post-comment></app-post-comment>
     </div>
 </div>
-<app-post-comment></app-post-comment>
+<ng-template #loadingPost>
+    Loading post...
+</ng-template>
