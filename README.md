@@ -1,3 +1,27 @@
+## This is my 3rd Angular project and the first that im doing totally alone. 
+
+It's a simple forum using fake api, and having some views.
+Home (initial posts)
+Single post with its comments (selected post)
+Register
+Login
+Profile of own and other users
+
+
+## Angular functions used:
+Components nested
+
+Data binding (event and prop) only 1 or 2, then -> using service & dependency injection.
+
+Directives, for, if …
+
+Routing
+
+forms
+
+Observables http request
+
+
 # ForumFakeApi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
